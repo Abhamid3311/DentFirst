@@ -46,7 +46,7 @@ const Testimonials = () => {
                     slidesPerGroup={1}
 
                     breakpoints={{
-                        499: {
+                        299: {
                             slidesPerView: 1,
                         },
 

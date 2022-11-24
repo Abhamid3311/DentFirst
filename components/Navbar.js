@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
@@ -7,10 +8,10 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     const menuItems = <>
-        <li><a href="#home" className='font-semibold px-5  cursor-pointer hover:text-[#64A665]'>Home</a></li>
-        <li><a href="#" className='font-semibold px-5  cursor-pointer hover:text-[#64A665]'>Services</a></li>
-        <li><a href="#" className='font-semibold px-5  cursor-pointer hover:text-[#64A665]'>About us</a></li>
-        <li><a href="#" className='font-semibold px-5  cursor-pointer hover:text-[#64A665]'>Testimonials</a></li>
+        <li><Link href="/" className='font-semibold px-5  cursor-pointer hover:text-[#64A665]'>Home</Link></li>
+        <li><Link href="/#services" className='font-semibold px-5  cursor-pointer hover:text-[#64A665]'>Services</Link></li>
+        <li><Link href="/#about" className='font-semibold px-5  cursor-pointer hover:text-[#64A665]'>About us</Link></li>
+        <li><Link href="/#testimonials" className='font-semibold px-5  cursor-pointer hover:text-[#64A665]'>Testimonials</Link></li>
     </>
 
     // console.log(open);
@@ -38,8 +39,8 @@ const Navbar = () => {
 
             {
                 open ?
-                    <div className='bg-[#666A7B] text-[#f4f7f2] rounded  p-3 py-5 z-100 fixed'>
-                        <ul className=' lg:hidden flex flex-col items-start gap-3 '>
+                    <div className='bg-[#666A7B] text-[#f4f7f2] rounded w-60   py-7 z-100 fixed'>
+                        <ul className=' lg:hidden flex flex-col items-start gap-5 '>
                             {menuItems}
                         </ul>
                     </div>

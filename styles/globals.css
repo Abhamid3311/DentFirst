@@ -6,7 +6,9 @@
     background-image: url('/assets/dentist-bg.png');
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
 }
+
 
 .catagory_container {
     background-image: url('/assets/upArrow.png'), url('/assets/downArrow.png'), url('/assets/upArrow2.png');
@@ -16,15 +18,38 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .catagory_container{
+    .catagory_container {
         background: none;
     }
 }
 
+/* Added Plus symbol */
 
-/* 
-Swiper */
+.trust-plus-img-left {
+    position: absolute;
+    bottom: 99px;
+    left: 25px;
+}
 
+.trust-plus-img-right {
+    position: absolute;
+    right: 30px;
+    bottom: -60px;
+}
+
+.doc-plus-img-top {
+    position: absolute;
+    left: 220px;
+    bottom: 310px;
+}
+
+.doc-plus-img-bottom{
+    position: absolute;
+    left: 555px;
+    bottom: 20px;
+}
+
+/* Swiper */
 .swiper {
     width: 90%;
     height: 100%;

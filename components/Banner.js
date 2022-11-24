@@ -9,11 +9,11 @@ const Banner = () => {
     return (
         <div className='bg-[#f4f7f2] text-center pt-16 px-14 mb-14'>
             <div className='flex flex-col items-center justify-between'>
-                <h2 className='text-6xl leading-[80px] font-bold pt-8'>We Are Ready To Help & <span className='text-[#64A665]'>Take Care Of <br /> Your Dental Health</span></h2>
+                <h2 className='text-4xl lg:text-6xl leading-[50px] lg:leading-[80px] font-bold pt-8'>We Are Ready To Help & <span className='text-[#64A665]'>Take Care Of <br /> Your Dental Health</span></h2>
 
                 <p className='mt-8 text-[#666A7B]'>We will help to treat your teeth with a satisfying experience and <br /> professional service by an expert doctor.</p>
 
-                <button className='py-4 px-10 bg-[#64A665] text-white rounded-lg mt-12 font-bold'>Request an Appointment</button>
+                <button className='py-4 px-10 bg-[#64A665] text-white rounded-lg mt-12 font-bold hover:bg-[#666A7B] hover:text-white '>Request an Appointment</button>
             </div>
 
             <div className='flex flex-col lg:flex-row items-center justify-center gap-5 w-full pt-14'>

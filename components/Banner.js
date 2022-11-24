@@ -17,13 +17,13 @@ const Banner = () => {
             </div>
 
             <div className='flex flex-col lg:flex-row items-center justify-center gap-5 w-full pt-14'>
-                <Image src={banner1} w-full h-full alt='banner img' />
+                <Image src={banner1}  alt='banner img' />
                 <div className='flex gap-5 flex-col lg:flex-row'>
                     <div className='flex flex-col items-center gap-5 h-full '>
-                        <Image src={banner2} w-full h-full alt='banner img' />
-                        <Image src={banner3} w-full h-full alt='banner img' />
+                        <Image src={banner2}  alt='banner img' />
+                        <Image src={banner3}  alt='banner img' />
                     </div>
-                    <Image src={banner4} w-full h-full alt='banner img' />
+                    <Image src={banner4}  alt='banner img' />
                 </div>
             </div>
 
